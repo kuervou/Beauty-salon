@@ -1,0 +1,196 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* Estilos para la página de login */
+body {
+    background-image: linear-gradient(135deg, rgba(57, 62, 70, 1) 0%, rgba(78, 204, 163, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background: rgba(238, 238, 238, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-logo img {
+    max-width: 200px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+    border-color: rgba(78, 204, 163, 1);
+}
+
+.btn-primary {
+    background-color: rgba(78, 204, 163, 1);
+    border-color: rgba(78, 204, 163, 1);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgba(57, 62, 70, 1);
+    border-color: rgba(57, 62, 70, 1);
+}
+
+
+/* Estilos para la página de registro de usuario */
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    margin: auto;
+    background: rgba(238, 238, 238, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la página de inicio */
+.homepage-container {
+  position: relative;
+  min-height: 100%;
+  background-image: url('../images/bg-home.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(25, 37, 37, 0.8);
+  
+}
+
+  .navbar.custom-navbar {
+    height: 80px; 
+  }
+
+  .navbar.custom-navbar .navbar-brand  {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40;
+  }
+
+  .navbar.custom-navbar .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-collapse .navbar-nav{
+    position: relative;
+    z-index: 1000;
+    background-color: rgba(33,37,41, 1);
+  }
+
+  .navbar .dropdown-menu {
+    background-color: rgba(33,37,41, 1);
+    border: none;
+  }
+
+  .navbar .dropdown-item {
+    color: #fff;
+  }
+
+  .navbar .dropdown-item:hover {
+    color: #78c4a3;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar .dropdown-toggle::after {
+    display: none;
+  }
+
+  .navbar .nav-link {
+    font-size: 16px;
+  }
+
+
+.glass{
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.card-image {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    border: 10px solid #A4ECD4;
+    box-shadow: 0px 0px 10px 0px #A4ECD4;
+    object-fit: cover;
+}
+
+
+.card-body {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    .card-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+#carouselExampleControls a {
+  color: rgba(57, 62, 70, 1);
+  text-decoration: none;
+}
+
+#carouselExampleControls a:hover {
+  color: rgba(78, 204, 163, 1);
+}
+
